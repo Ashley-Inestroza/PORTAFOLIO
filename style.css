@@ -1,0 +1,117 @@
+body  {
+    background-color: rgb(220, 210, 218);
+    padding: 70px;
+  }
+  
+  .textoinfo1 {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .textoinfo2 {
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .center {
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  #avatar {
+      height: 350px;
+      width: 300px;
+      background-repeat: no-repeat;
+      border-radius: 5%;
+      background-size: 200px;
+  }
+  
+  hr {
+  width: 500px ;
+  border-top: 1px solid #751573 ;
+  border-bottom: 1px solid rgba(0,0,0,0.2) ;
+ 
+    
+  }
+  
+  .parallax  {
+    background: url(https://img.freepik.com/foto-gratis/vista-elevada-donuts-caja-madera-blanca-esquina-fondo-rosa_23-2148087095.jpg) no-repeat center;
+      background-size: 1100px;
+      background-attachment: fixed;
+      height: 550px;
+  }
+  
+  .parallax2  {
+    background: url(https://thumbs.dreamstime.com/b/fondo-anaranjado-y-rosado-de-color-salm%C3%B3n-cl%C3%A1sico-del-brillo-105205659.jpg) no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 500px;
+  }
+  
+  .parallax3  {
+    background: url(https://media.istockphoto.com/vectors/rose-gold-glitter-scattered-on-white-background-vector-vector-id953511800?b=1&k=6&m=953511800&s=170667a&w=0&h=rpBFX9LUc0nP1fmSqYd4WnZ1LDP06d_nulJNyuiz7ZY=) no-repeat center;
+      background-size: 1200px;
+      background-attachment: fixed;
+      height: 500px;
+     }
+  
+  html  {
+    height: 100%;
+  }
+ 
+  
+  .textback {
+  color: black;
+    font-family: 'Courgette', cursive;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    padding-top: 20%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  
+  }
+  
+  h1  {
+    font-size: 80px ;
+  }
+  
+  .contactame {
+  
+    font-size: 80px;
+  
+  }
+  form{
+
+        height: 100px;
+        width: 200px;
+        padding: 340px 570px;
+        box-sizing: border-box;
+        background-color: #fff;
+        border-bottom:1px solid #94316d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+  }
+  
+input, textarea{
+    padding: 15px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(220, 210, 218);
+    gap: 10px;
+    }
+button{
+        padding: 20px;
+        width: 100px;
+        background-color:rgb(249, 158, 158);
+        color: #fff;
+        border: none;
+    }
